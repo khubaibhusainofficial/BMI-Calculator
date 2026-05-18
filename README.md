@@ -32,7 +32,7 @@ The application calculates BMI instantly, displays animated results, and provide
 
 ---
 
-# 📂 Clean Architecture Structure
+# 📂 Project Architecture
 
 ```bash
 lib/
@@ -40,28 +40,34 @@ lib/
 ├── Bloc Logic/
 │   ├── bmi_bloc.dart
 │   ├── bmi_event.dart
-│   ├──bmi_state.dart
+│   └── bmi_state.dart
 │
 ├── Screens/
-│   └── BottomNavBar/
-│            ├──Home.dart     
-│   └── Calculations/
-│             ├──Imperial.dart
-│             ├──Metric.dart
-│    └── Introduction/  
-│              ├── SplashScreen.dart
+│   │
+│   ├── BottomNavBar/
+│   │   └── Home.dart
+│   │
+│   ├── Calculations/
+│   │   ├── Imperial.dart
+│   │   └── Metric.dart
+│   │
+│   └── Introduction/
+│       └── SplashScreen.dart
+│
 ├── Utility/
-│   └── Buttons/
-│               ├──MyButton.dart
-│   └──TextFields/
-│                ├──TextFieldUtil.dart      
-│      └──UI/
-│                 ├──Colors.dart
-│                ├──TextStyling.dart  
+│   │
+│   ├── Buttons/
+│   │   └── MyButton.dart
+│   │
+│   ├── TextFields/
+│   │   └── TextFieldUtil.dart
+│   │
+│   └── UI/
+│       ├── Colors.dart
+│       └── TextStyling.dart
+│
 └── main.dart
-```
-
----
+```---
 
 # 📱 Screens
 
